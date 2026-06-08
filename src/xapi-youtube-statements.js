@@ -12,7 +12,7 @@
       catch(e) { return false; }
     }
 
-    XAPIYoutubeStatements = function() {
+    window.XAPIYoutubeStatements = function() {
 
       var actor = {};
       var object = {};
