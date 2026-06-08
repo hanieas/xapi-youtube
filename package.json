@@ -1,0 +1,52 @@
+{
+  "name": "xapi-youtube",
+  "version": "1.0.0",
+  "description": "Send YouTube video player interactions to an LRS as xAPI statements, built on the YouTube IFrame API and the xAPI Video Profile.",
+  "keywords": [
+    "xapi",
+    "tincan",
+    "youtube",
+    "video",
+    "lrs",
+    "elearning",
+    "adl",
+    "video-profile",
+    "learning-analytics"
+  ],
+  "homepage": "https://github.com/hanieas/xapi-youtube#readme",
+  "bugs": {
+    "url": "https://github.com/hanieas/xapi-youtube/issues"
+  },
+  "license": "Apache-2.0",
+  "author": "Advanced Distributed Learning",
+  "contributors": [
+    "sonsoleslp <sonsoleslp@users.noreply.github.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanieas/xapi-youtube.git"
+  },
+  "main": "src/xapi-youtube-statements.js",
+  "browser": "src/xapi-youtube-statements.js",
+  "files": [
+    "src/xapi-youtube-statements.js",
+    "src/videoprofile.js",
+    "lib/xapiwrapper.min.js",
+    "index.html",
+    "LICENSE",
+    "README.md"
+  ],
+  "exports": {
+    ".": "./src/xapi-youtube-statements.js",
+    "./statements": "./src/xapi-youtube-statements.js",
+    "./videoprofile": "./src/videoprofile.js",
+    "./xapiwrapper": "./lib/xapiwrapper.min.js",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}
